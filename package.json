@@ -1,23 +1,17 @@
 {
-  "name": "modules",
-  "version": "1.0.0",
-  "description": "modules for mirai",
-  "main": "index.js",
+  "name": "modulesmirai",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/miraicompany/modulesMirai.git"
-  },
-  "keywords": [
-    "mirai;",
-    "modules"
-  ],
-  "author": "Paula Fernanda Jeronymo Figueiredo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/miraicompany/modulesMirai/issues"
-  },
-  "homepage": "https://github.com/miraicompany/modulesMirai#readme"
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
+  }
 }
