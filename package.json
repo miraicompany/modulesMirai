@@ -1,0 +1,23 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "modules for mirai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miraicompany/modulesMirai.git"
+  },
+  "keywords": [
+    "mirai;",
+    "modules"
+  ],
+  "author": "Paula Fernanda Jeronymo Figueiredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miraicompany/modulesMirai/issues"
+  },
+  "homepage": "https://github.com/miraicompany/modulesMirai#readme"
+}
